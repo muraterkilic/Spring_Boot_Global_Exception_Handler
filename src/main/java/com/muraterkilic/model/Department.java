@@ -15,7 +15,7 @@ import lombok.Setter;
 public class Department {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public Long DeptId;
     private String DeptName;
     private String location;
