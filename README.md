@@ -1,4 +1,4 @@
-<h1>Spring_Boot_Global_Exception_Handler</h1>
+<h1>SpringBoot Global Exception Handler</h1>
 <hr><p>Java Spring Global Exception Handler</p><ul>
 <li>Java da genel hata yönetimi</li>
 </ul><h2>Technologies Used</h2>
