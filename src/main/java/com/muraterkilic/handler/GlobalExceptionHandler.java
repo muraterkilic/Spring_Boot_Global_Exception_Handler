@@ -1,6 +1,6 @@
 package com.muraterkilic.handler;
 
-import com.muraterkilic.controller.exception.BaseException;
+import com.muraterkilic.exception.BaseException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

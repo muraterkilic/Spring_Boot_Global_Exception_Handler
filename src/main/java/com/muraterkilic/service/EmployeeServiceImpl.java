@@ -1,8 +1,8 @@
 package com.muraterkilic.service;
 
-import com.muraterkilic.controller.exception.BaseException;
-import com.muraterkilic.controller.exception.ErrorMessage;
-import com.muraterkilic.controller.exception.MessageType;
+import com.muraterkilic.exception.BaseException;
+import com.muraterkilic.exception.ErrorMessage;
+import com.muraterkilic.exception.MessageType;
 import com.muraterkilic.dto.DepartmentDto;
 import com.muraterkilic.dto.EmployeeDto;
 import com.muraterkilic.model.Department;

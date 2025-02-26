@@ -1,4 +1,4 @@
-package com.muraterkilic.controller.exception;
+package com.muraterkilic.exception;
 
 import lombok.*;
 

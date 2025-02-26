@@ -1,4 +1,4 @@
-package com.muraterkilic.controller.exception;
+package com.muraterkilic.exception;
 
 public class BaseException extends RuntimeException {
     public BaseException() {
