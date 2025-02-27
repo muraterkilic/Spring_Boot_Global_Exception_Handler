@@ -22,28 +22,28 @@ http://localhost:8181/rest/api/employee/list/1
 
 Response
 {
-"result": true,
-"errorMessage": null,
-"data": {
-"id": 1,
-"name": "Murat E",
-"department": {
-"id": 2,
-"name": "Yazılım Geliştirme",
-"location": "istanbul"
-}
-}
+   "result":true,
+   "errorMessage":null,
+   "data":{
+      "id":1,
+      "name":"Murat E",
+      "department":{
+         "id":2,
+         "name":"Yazılım Geliştirme",
+         "location":"istanbul"
+      }
+   }
 }
 
 http://localhost:8181/rest/api/employee/list/12
 
 Response
 {
-"status": 400,
-"exception": {
-"hostName": "192.168.1.11",
-"path": "/rest/api/employee/list/12",
-"createTime": "2025-02-27T11:42:20.251+00:00",
-"message": "Kayıt bulunamadı  :  12"
-}
+   "status":400,
+   "exception":{
+      "hostName":"192.168.1.11",
+      "path":"/rest/api/employee/list/12",
+      "createTime":"2025-02-27T11:42:20.251+00:00",
+      "message":"Kayıt bulunamadı  :  12"
+   }
 }
