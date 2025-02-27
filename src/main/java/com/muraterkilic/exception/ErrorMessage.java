@@ -19,5 +19,4 @@ public class ErrorMessage {
         }
         return builder.toString();
     }
-
 }

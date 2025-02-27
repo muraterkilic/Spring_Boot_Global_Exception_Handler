@@ -8,7 +8,8 @@ import lombok.*;
 @NoArgsConstructor
 public class EmployeeDto {
 
-    private Long EmpId;
-    private String firstName;
+    private Long id;
+    private String name;
     private DepartmentDto department;
+
 }

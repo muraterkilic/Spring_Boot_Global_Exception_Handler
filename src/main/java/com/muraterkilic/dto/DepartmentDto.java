@@ -8,7 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 public class DepartmentDto {
 
-    private Long DeptId;
-    private String DepName;
+    private Long id;
+    private String name;
     private String location;
 }

@@ -1,4 +1,4 @@
-package com.muraterkilic.service;
+package com.muraterkilic.service.impl;
 
 import com.muraterkilic.exception.BaseException;
 import com.muraterkilic.exception.ErrorMessage;
@@ -8,6 +8,7 @@ import com.muraterkilic.dto.EmployeeDto;
 import com.muraterkilic.model.Department;
 import com.muraterkilic.model.Employee;
 import com.muraterkilic.repository.EmployeeRepository;
+import com.muraterkilic.service.IEmployeeService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,7 +22,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
     private EmployeeRepository employeeRepository;
 
     @Override
-    public EmployeeDto findById(Long id) {
+    public EmployeeDto findEmployeeById(Long id) {
         EmployeeDto employeeDto = new EmployeeDto();
         DepartmentDto departmentDto = new DepartmentDto();
 
@@ -31,8 +32,8 @@ public class EmployeeServiceImpl implements IEmployeeService {
         }
 
         Employee employee = optional.get();
-
         Department department = employee.getDepartment();
+
         BeanUtils.copyProperties(employee,employeeDto);
         BeanUtils.copyProperties(department,departmentDto);
 

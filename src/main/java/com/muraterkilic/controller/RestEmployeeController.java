@@ -1,8 +1,9 @@
 package com.muraterkilic.controller;
 
 import com.muraterkilic.dto.EmployeeDto;
+import com.muraterkilic.model.RootEntity;
 
 public interface RestEmployeeController {
 
-    public EmployeeDto findById(Long id);
+    public RootEntity<EmployeeDto> findEmployeeById(Long id);
 }

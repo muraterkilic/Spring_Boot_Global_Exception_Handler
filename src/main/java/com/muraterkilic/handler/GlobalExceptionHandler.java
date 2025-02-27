@@ -35,7 +35,7 @@ public class GlobalExceptionHandler {
 
     private String getHostName() {
         try {
-         return    Inet4Address.getLocalHost().getHostName();
+         return Inet4Address.getLocalHost().getHostName();
         }catch (UnknownHostException e){
             System.out.println("hata oluştu " + e.getMessage());
         }

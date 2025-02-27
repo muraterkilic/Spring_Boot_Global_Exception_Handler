@@ -15,10 +15,12 @@ import lombok.Setter;
 public class Employee {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    public Long EmpId;
-    private String firstName;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @Column(name = "name")
+    private String name;
+
+    @ManyToOne
     private Department department;
 }

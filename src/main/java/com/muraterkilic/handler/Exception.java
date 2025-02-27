@@ -13,4 +13,5 @@ public class Exception<E> {
     private String path;
     private Date createTime;
     private E message;
+
 }

@@ -4,5 +4,5 @@ import com.muraterkilic.dto.EmployeeDto;
 
 public interface IEmployeeService {
 
-    public EmployeeDto findById(Long id);
+    public EmployeeDto findEmployeeById(Long id);
 }
